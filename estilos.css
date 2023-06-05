@@ -9,14 +9,24 @@
 body{
     background-color: aliceblue;
 }
-
 .menu_logo{
     width:8%;
 }
-.item-contacto-fb:hover,.item-contacto-instagram:hover,.item-contacto-twitter:hover,.item-contacto-whatsapp:hover{
+.item-contacto-fb:hover{
     cursor: pointer;
-    background-color: #05287a;
-    
+    background-color: #05287a;   
+}
+.item-contacto-instagram:hover{
+    cursor: pointer;
+    background-color: #ff0f97;   
+}
+.item-contacto-twitter:hover{
+    cursor: pointer;
+    background-color: #46c9fc;   
+}
+.item-contacto-whatsapp:hover{
+    cursor: pointer;
+    background-color: #4fff4c;   
 }
 .banner{
     width: 100%;
@@ -33,7 +43,6 @@ body{
     max-height: auto;
     text-align: center;
     grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-
     display: grid;
     grid-gap: 0px;
     grid-row-gap: 30px;
@@ -45,8 +54,6 @@ body{
 .info-imagenes .item, .servicios .item{
     width: 200px;
 }
-
-
 .info-imagenes .item h1{
     font-size: 16px;
 }
@@ -84,7 +91,6 @@ body{
 .item-contacto-whatsapp{
     background-color:  #2BB741;
 }
-
 .nosotros{
     text-align: center;
     margin: 0 auto;
@@ -97,8 +103,6 @@ body{
 .nosotros p,.parrafo    {
     text-align: justify;
 }
-
-
 .acerca-de,.parrafo{
     display: flex;
 }
@@ -109,7 +113,6 @@ body{
     max-width: 90%;
     margin: auto;
     align-items: center;
-    
 }
 .trayectoria-somos{
     height: auto;
@@ -122,13 +125,10 @@ body{
 .trayectoria h2,.somos h2,.nosotros h2{
     text-align: center;
 }
-
 .trayectoria img,.somos img{
     width: 25%;
     margin: 0 10px 0 10px;
 }
-
-
 footer{
     background-color: #001752;
     color: #fff;
@@ -142,7 +142,6 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
   }
-  
   .item {
     position: relative;
     width: 300px;
@@ -150,20 +149,16 @@ footer{
     perspective: 1000px;
     margin: 10px;
   }
-  
-  .item .item-front,
-  .item .item-back {
+  .item .item-front, .item .item-back {
     position: absolute;
     width: 100%;
     height: 100%;
     transition: transform 0.5s;
     backface-visibility: hidden;
   }
-  
   .item .item-front {
     transform: rotateY(0deg);
   }
-  
   .item .item-back {
     transform: rotateY(180deg);
     width: 100%;
@@ -171,21 +166,17 @@ footer{
     box-sizing: border-box;
     font-size: 10px;
   }
-  
   .item:hover .item-front {
     transform: rotateY(-180deg);
   }
-  
   .item:hover .item-back {
     transform: rotateY(0deg);
   }
-  
   .item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  
   .item .item-back {
     display: flex;
     flex-direction: column;
@@ -198,49 +189,47 @@ footer{
     opacity: 0;
     transition: opacity 0.3s;
   }
-  
   .item:hover .item-back {
     opacity: 1;
   }
   
-
-
-  
-
 /*cuando pase a tamaño de 850 px*/
 @media (max-width:850px){
-
     .banner {
         background-size: contain;
         margin-top: -5px;
         margin-bottom: -160px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 900 px*/
 @media (max-width:900px){
-
     .banner {
         background-size: contain;
         margin-top: 5px;
         margin-bottom: -150px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 950 px*/
 @media (max-width:950px){
-
     .banner {
         background-size: contain;
         margin-top: 5px;
         margin-bottom: -150px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
 
-
-/*cuando pase a tamaño de disposito movil*/
+/*cuando pase a tamaño 800px*/
 @media (max-width:800px){
     .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
         display: block;
@@ -264,8 +253,7 @@ footer{
     .trayectoria-somos img{
         width: 97%;
     }
-    .parrafo{
-        
+    .parrafo{     
         width: 100%;
         margin: 0;
     }
@@ -281,95 +269,97 @@ footer{
     .menu_logo{
         width: 75px;
     }
-
-    .info-imagenes,
-  .servicios,
-  .contactos {
+    .info-imagenes, .servicios, .contactos {
     justify-items: center;
-  }
-
+    }
     footer{
         font-size: 10px;
     }
   .titulo-servicio, .titulo-contacto,.titulo-acerca-de{
     font-size: 30px;
-
+    }
 }
-}
-
-
 
 /*cuando pase a tamaño de 700 px*/
 @media (max-width:700px){
-
     .banner {
         background-size: contain;
         margin-top: -40px;
         margin-bottom: -180px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
 
 /*cuando pase a tamaño de 650 px*/
 @media (max-width:650px){
-
     .banner {
         background-size: contain;
         margin-top: -50px;
         margin-bottom: -190px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 600 px*/
 @media (max-width:600px){
-
     .banner {
         background-size: contain;
         margin-top: -60px;
         margin-bottom: -200px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 550 px*/
 @media (max-width:550px){
-
     .banner {
         background-size: contain;
         margin-top: -70px;
         margin-bottom: -210px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 500 px*/
 @media (max-width:500px){
-
     .banner {
         background-size: contain;
         margin-top: -82px;
         margin-bottom: -225px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 450 px*/
 @media (max-width:450px){
-
     .banner {
         background-size: contain;
         margin-top: -94px;
         margin-bottom: -235px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
-
 
 /*cuando pase a tamaño de 400 px*/
 @media (max-width:400px){
-
     .banner {
         background-size: contain;
         margin-top: -106px;
         margin-bottom: -245px;
     }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
 }
