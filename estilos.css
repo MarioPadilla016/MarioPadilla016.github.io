@@ -193,12 +193,12 @@ footer{
     opacity: 1;
   }
   
-/*cuando pase a tamaño de 850 px*/
-@media (max-width:850px){
+/*cuando pase a tamaño de 950 px*/
+@media (max-width:950px){
     .banner {
         background-size: contain;
-        margin-top: -5px;
-        margin-bottom: -160px;
+        margin-top: 5px;
+        margin-bottom: -150px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
@@ -217,12 +217,36 @@ footer{
         }
 }
 
-/*cuando pase a tamaño de 950 px*/
-@media (max-width:950px){
+/*cuando pase a tamaño de 875 px*/
+@media (max-width:875){
     .banner {
         background-size: contain;
-        margin-top: 5px;
-        margin-bottom: -150px;
+        margin-top: 0px;
+        margin-bottom: -155px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 850 px*/
+@media (max-width:850px){
+    .banner {
+        background-size: contain;
+        margin-top: -5px;
+        margin-bottom: -160px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 825 px*/
+@media (max-width:825){
+    .banner {
+        background-size: contain;
+        margin-top: -10px;
+        margin-bottom: -160px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
@@ -280,12 +304,60 @@ footer{
     }
 }
 
+/*cuando pase a tamaño de 775 px*/
+@media (max-width:775px){
+    .banner {
+        background-size: contain;
+        margin-top: -22.5px;
+        margin-bottom: -165px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 750 px*/
+@media (max-width:750px){
+    .banner {
+        background-size: contain;
+        margin-top: -30px;
+        margin-bottom: -170px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 725 px*/
+@media (max-width:725px){
+    .banner {
+        background-size: contain;
+        margin-top: -35px;
+        margin-bottom: -175px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 700 px*/
 @media (max-width:700px){
     .banner {
         background-size: contain;
         margin-top: -40px;
         margin-bottom: -180px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 675 px*/
+@media (max-width:675px){
+    .banner {
+        background-size: contain;
+        margin-top: -45px;
+        margin-bottom: -185px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
@@ -304,12 +376,36 @@ footer{
         }
 }
 
+/*cuando pase a tamaño de 625 px*/
+@media (max-width:625px){
+    .banner {
+        background-size: contain;
+        margin-top: -55px;
+        margin-bottom: -195px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 600 px*/
 @media (max-width:600px){
     .banner {
         background-size: contain;
         margin-top: -60px;
         margin-bottom: -200px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 575 px*/
+@media (max-width:575px){
+    .banner {
+        background-size: contain;
+        margin-top: -65px;
+        margin-bottom: -205px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
@@ -328,6 +424,18 @@ footer{
         }
 }
 
+/*cuando pase a tamaño de 525 px*/
+@media (max-width:525px){
+    .banner {
+        background-size: contain;
+        margin-top: -76px;
+        margin-bottom: -217.5px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 500 px*/
 @media (max-width:500px){
     .banner {
@@ -340,12 +448,36 @@ footer{
         }
 }
 
+/*cuando pase a tamaño de 475 px*/
+@media (max-width:475px){
+    .banner {
+        background-size: contain;
+        margin-top: -88px;
+        margin-bottom: -230px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 450 px*/
 @media (max-width:450px){
     .banner {
         background-size: contain;
         margin-top: -94px;
         margin-bottom: -235px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 425 px*/
+@media (max-width:425px){
+    .banner {
+        background-size: contain;
+        margin-top: -100px;
+        margin-bottom: -240px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
