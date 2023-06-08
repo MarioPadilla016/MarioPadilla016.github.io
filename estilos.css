@@ -253,12 +253,10 @@ footer{
         height: auto;
     }
     .banner {
-        
-        height: 625px;
-        background-image: url(img/banner4.png);
-        background-size: cover;
-        margin-top: 70px;
-        margin-bottom: -75px;
+        background-image: url(img/banner4x.png);
+        background-size: 100%;
+        margin-top: 35px;
+        margin-bottom: -110px;
     }
     .acerca-de{
         width: 90%;
@@ -307,9 +305,9 @@ footer{
         height: auto;
     }
     .banner {
-        background-size: 1200px;
-        margin-top: 70px;
-        margin-bottom: -65px;
+        background-size: 100%;
+        margin-top: 20px;
+        margin-bottom: -120px;
     }
     .acerca-de{
         width: 90%;
@@ -355,7 +353,7 @@ footer{
 @media (max-width:1025px){
     .banner {
         background-size: contain;
-        margin-top: 5px;
+        margin-top: -7px;
         margin-bottom: -140px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -438,6 +436,18 @@ footer{
         }
 }
 
+/*cuando pase a tamaño de 912 px*/
+@media (max-width:913px){
+    .banner {
+        background-size: contain;
+        margin-top: -33px;
+        margin-bottom: -160px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 900 px*/
 @media (max-width:900px){
     .banner {
@@ -490,7 +500,7 @@ footer{
 @media (max-width:821px){
     .banner {
         background-size: contain;
-        margin-top: -45px;
+        margin-top: -55px;
         margin-bottom: -180px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -506,7 +516,7 @@ footer{
     }
     .banner {
         background-size: contain;
-        margin-top: -45px;
+        margin-top: -60px;
         margin-bottom: -190px;
     }
     .acerca-de{
@@ -565,7 +575,7 @@ footer{
 @media (max-width:769px){
     .banner {
         background-size: contain;
-        margin-top: -56px;
+        margin-top: -66px;
         margin-bottom: -190px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -597,11 +607,23 @@ footer{
         }
 }
 
+/*cuando pase a tamaño de 717 px*/
+@media (max-width:718px){
+    .banner {
+        background-size: contain;
+        margin-top: -80px;
+        margin-bottom: -220px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
 /*cuando pase a tamaño de 712 px*/
 @media (max-width:713px){
     .banner {
         background-size: contain;
-        margin-top: -67px;
+        margin-top: -78px;
         margin-bottom: -210px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -661,7 +683,7 @@ footer{
 @media (max-width:641px){
     .banner {
         background-size: contain;
-        margin-top: -90px;
+        margin-top: -96px;
         margin-bottom: -230px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -685,7 +707,7 @@ footer{
 @media (max-width:601px){
     .banner {
         background-size: contain;
-        margin-top: -95px;
+        margin-top: -105px;
         margin-bottom: -235px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -721,7 +743,7 @@ footer{
 @media (max-width:541px){
     .banner {
         background-size: contain;
-        margin-top: -110px;
+        margin-top: -120px;
         margin-bottom: -255px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -769,7 +791,7 @@ footer{
 @media (max-width:481px){
     .banner {
         background-size: contain;
-        margin-top: -125px;
+        margin-top: -133px;
         margin-bottom: -270px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -817,7 +839,7 @@ footer{
 @media (max-width:415px){
     .banner {
         background-size: contain;
-        margin-top: -140px;
+        margin-top: -148px;
         margin-bottom: -270px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -829,7 +851,7 @@ footer{
 @media (max-width:413px){
     .banner {
         background-size: contain;
-        margin-top: -142px;
+        margin-top: -150px;
         margin-bottom: -280px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -853,7 +875,7 @@ footer{
 @media (max-width:394px){
     .banner {
         background-size: contain;
-        margin-top: -147px;
+        margin-top: -152px;
         margin-bottom: -295px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -865,7 +887,7 @@ footer{
 @media (max-width:391px){
     .banner {
         background-size: contain;
-        margin-top: -147px;
+        margin-top: -153px;
         margin-bottom: -295px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -877,7 +899,7 @@ footer{
 @media (max-width:385px){
     .banner {
         background-size: contain;
-        margin-top: -150px;
+        margin-top: -155px;
         margin-bottom: -295px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -889,7 +911,7 @@ footer{
 @media (max-width:376px){
     .banner {
         background-size: contain;
-        margin-top: -151px;
+        margin-top: -158px;
         margin-bottom: -295px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -901,7 +923,7 @@ footer{
 @media (max-width:361px){
     .banner {
         background-size: contain;
-        margin-top: -155px;
+        margin-top: -160px;
         margin-bottom: -310px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -913,7 +935,7 @@ footer{
 @media (max-width:354px){
     .banner {
         background-size: contain;
-        margin-top: -155px;
+        margin-top: -162px;
         margin-bottom: -305px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -926,7 +948,7 @@ footer{
     .banner {
         width: 100%;
         background-size: contain;
-        margin-top: -165px;
+        margin-top: -170px;
         margin-bottom: -310px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -938,7 +960,7 @@ footer{
 @media (max-width:281px){
     .banner {
         background-size: contain;
-        margin-top: -175px;
+        margin-top: -180px;
         margin-bottom: -320px;
     }
     .info-imagenes, .servicios, .contactos {
