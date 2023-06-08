@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: aliceblue;
 }
@@ -119,7 +122,7 @@ body{
 .trayectoria,.somos{
     width: 100%;
     height: 270px;
-    margin: 0 10px;
+    margin: 0 auto;
 }
 .trayectoria h2,.somos h2,.nosotros h2{
     text-align: center;
@@ -511,6 +514,7 @@ footer{
 @media (max-width:801px){
     .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
         display: block;
+        width: 90%;
         height: auto;
     }
     .banner {
@@ -523,7 +527,7 @@ footer{
         height: auto;
     }
     .trayectoria-somos{
-        width: 100%;
+        width: 90%;
     }
     .trayectoria,.somos{
         width: 100%;
