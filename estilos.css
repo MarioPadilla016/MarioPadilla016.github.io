@@ -193,6 +193,60 @@ footer{
     opacity: 1;
   }
 
+/*cuando pase a tamaño de 1264px (DESKTOP GRANDE)*/
+@media (max-width:1264px){
+    .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
+        display: block;
+        height: auto;
+    }
+    .banner {
+        
+        height: 625px;
+        background-image: url(img/banner4.png);
+        background-size: cover;
+        margin-top: 70px;
+        margin-bottom: -75px;
+    }
+    .acerca-de{
+        width: 90%;
+        height: auto;
+    }
+    .trayectoria-somos{
+        width: 100%;
+    }
+    .trayectoria,.somos{
+        width: 100%;
+    }
+    .trayectoria-somos img{
+        width: 97%;
+    }
+    .parrafo{     
+        width: 100%;
+        margin: 0;
+    }
+    .contactos{
+        display: block;
+    }
+    .item-contacto-fb,.item-contacto-instagram,.item-contacto-twitter,.item-contacto-whatsapp{
+        text-align: center;
+        max-width: 100%; 
+        display: block;
+        margin-bottom: 0;
+    }
+    .menu_logo{
+        width: 75px;
+    }
+    .info-imagenes, .servicios, .contactos {
+    justify-items: center;
+    }
+    footer{
+        font-size: 10px;
+    }
+  .titulo-servicio, .titulo-contacto,.titulo-acerca-de{
+    font-size: 30px;
+    }
+}
+
   /*cuando pase a tamaño de 1200px (DESKTOP GRANDE)*/
 @media (max-width:1200px){
     .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
