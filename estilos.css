@@ -199,7 +199,7 @@ footer{
         height: 625px;
         background-image: url(img/banner4.png);
         background-size: contain ;
-        margin-top: 71px;
+        margin-top: 65px;
         margin-bottom: -80px;
     }
     .info-imagenes, .servicios, .contactos {
@@ -246,8 +246,8 @@ footer{
         }
 }
 
-/*cuando pase a tamaño de 1262px (DESKTOP GRANDE)*/
-@media (max-width:1262px){
+/*cuando pase a tamaño de 1263px (DESKTOP GRANDE)*/
+@media (max-width:1264px){
     .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
         display: block;
         height: auto;
