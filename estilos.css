@@ -193,8 +193,8 @@ footer{
     opacity: 1;
   }
 
-/*cuando pase a tamaño de 1264px (DESKTOP GRANDE)*/
-@media (max-width:1264px){
+/*cuando pase a tamaño de 1262px (DESKTOP GRANDE)*/
+@media (max-width:1262px){
     .acerca-de,.trayectoria,.somos,.trayectoria-somos,.parrafo,.nosotros{
         display: block;
         height: auto;
@@ -355,6 +355,18 @@ footer{
         background-size: contain;
         margin-top: 5px;
         margin-bottom: -150px;
+    }
+    .info-imagenes, .servicios, .contactos {
+        justify-items: center;
+        }
+}
+
+/*cuando pase a tamaño de 925 px*/
+@media (max-width:925px){
+    .banner {
+        background-size: contain;
+        margin-top: -20px;
+        margin-bottom: -160px;
     }
     .info-imagenes, .servicios, .contactos {
         justify-items: center;
